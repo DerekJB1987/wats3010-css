@@ -3,4 +3,16 @@
 
 h1 {
     color: green;
+    font-family: Times;
+}
+
+body {
+    color: red;
+    font-family: serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
