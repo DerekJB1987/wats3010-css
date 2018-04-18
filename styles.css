@@ -1,18 +1,44 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
-    font-family: Times;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    color: red;
-    font-family: serif;
+header {
+    margin: 3rem 1rem;
+}
+header p {
+    margin-top:0;
+}
+aside {
+    border: 1px solid black;
+    width: 60%;
+    max-width: 725px;
+    padding: 2rem;
+    overflow: hidden;
+}
+aside img {
+    width: 170px;
+    float: right;
+    height: auto;
+    margin: 10px; 
 }
 
+section {
+    clear: both;
+}
+.page-footer {
+    border-top: 2px rgba(0,0,0, 0.5) solid;
+    padding-top: 3rem;
+    border-bottom:2rem;
+    padding-bottom:2rem;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+html {
+    background-image: url(images/sand.jpg)
 }
