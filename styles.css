@@ -30,19 +30,21 @@ section {
 }
 .page-footer {
     border-top: 2px rgba(0,0,0, 0.5) solid;
-    padding-top: 3rem;
+    padding-top: 1rem;
     border-bottom:2rem;
     padding-bottom:2rem;
+    line-height: 3em;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    line-height: 2
+    line-height: 2;
 }
 html {
     background-image: url(images/sand.jpg)
 }
 body {
     padding-left: 3rem;
+    text-align: justify;
 }
