@@ -8,10 +8,10 @@ body {
     text-align: center;
     padding-left: 3rem;
     line-height: 32px;
-    font-size: 
 }
 header {
     margin: 3rem 1rem;
+    font-size: 32px;
 }
 header p {
     margin-top:0;
@@ -27,6 +27,7 @@ aside {
     overflow: hidden;
     margin: auto;
     text-align: left;
+    font-size: 20px;
 }
 aside img {
     width: 170px;
@@ -36,6 +37,7 @@ aside img {
 }
 .poem {
     line-height: 3rem;
+    font-size: 24px;
 }
 section {
     clear: both;
@@ -46,6 +48,7 @@ section {
     border-bottom:2rem;
     padding-bottom:2rem;
     line-height: 3em;
+    font-size: 20px;
 }
 ul {
     list-style-type: none;
