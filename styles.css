@@ -3,15 +3,21 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
+}
+body {
     text-align: center;
+    padding-left: 3rem;
+    line-height: 32px;
+    font-size: 
 }
 header {
     margin: 3rem 1rem;
-    text-align: center;
 }
 header p {
     margin-top:0;
-    text-align: center;
+}
+aside li {
+    text-align: left;
 }
 aside {
     border: 1.25px solid black;
@@ -20,7 +26,7 @@ aside {
     padding: 1.5rem;
     overflow: hidden;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 aside img {
     width: 170px;
@@ -28,7 +34,9 @@ aside img {
     height: auto;
     margin: 10px; 
 }
-
+.poem {
+    line-height: 3rem;
+}
 section {
     clear: both;
 }
@@ -44,15 +52,9 @@ ul {
     margin: 0;
     padding: 0;
     line-height: 32px;
-    text-align: center;
 }
 html {
     background-image: url(images/sand.jpg)
-}
-body {
-    padding-left: 3rem;
-    text-align: center;
-    line-height: 32px;
 }
 div.citation{
     padding: 1rem;
