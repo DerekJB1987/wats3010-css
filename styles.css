@@ -3,20 +3,24 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
-
 header {
     margin: 3rem 1rem;
+    text-align: center;
 }
 header p {
     margin-top:0;
+    text-align: center;
 }
 aside {
-    border: 1px solid black;
-    width: 60%;
+    border: 1.25px solid black;
+    width: 1000px;
     max-width: 725px;
-    padding: 2rem;
+    padding: 1.5rem;
     overflow: hidden;
+    margin: auto;
+    text-align: center;
 }
 aside img {
     width: 170px;
@@ -30,7 +34,7 @@ section {
 }
 .page-footer {
     border-top: 2px rgba(0,0,0, 0.5) solid;
-    padding-top: 1rem;
+    padding-top: 2rem;
     border-bottom:2rem;
     padding-bottom:2rem;
     line-height: 3em;
@@ -39,12 +43,17 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    line-height: 2;
+    line-height: 32px;
+    text-align: center;
 }
 html {
     background-image: url(images/sand.jpg)
 }
 body {
     padding-left: 3rem;
-    text-align: justify;
+    text-align: center;
+    line-height: 32px;
+}
+div.citation{
+    padding: 1rem;
 }
